@@ -1,99 +1,119 @@
-.header {
-	background: silver;
-	color: darkred;
-	font-family: cursive;
-	text-align: center;
-	height: 50px;
-}
-h1 {
-	margin: 0px;
-}
-.name {
-	color: white;
-	text-align: center;
-	margin: 0px;	
-	font-size: 40px;    
-}
 .profile {
 	border: 10px ridge royalblue;
 	margin: 0px;
-	}
+	font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+.header {
+	background: silver;
+	color: darkred;
+	text-align: center;
+	height: 50px;
+}
+
+.container {
+	display: flex;
+}
+
+h1 {
+	margin: 0px;
+}
+
+.left {
+	width: 300px;
+	margin: 0px;
+	background: linear-gradient(red, blue)
+}
+
+.name {
+	color: white;
+	text-align: center;
+	margin: 0px;
+	font-size: 40px;
+}
+
 .avatar {
 	height: 220px;
 	width: 220px;
 	border: 2px solid white;
 	border-radius: 45px;
 }
-.left {
-	font-family: cursive;
-	width: 300px;
-	margin: 0px;
-	background: linear-gradient(red, blue)
-}
-.right {
-	font-family: cursive;
-	width: 100%;
-	margin-left: 20px;
-	margin-right: 20px;
-}
-.info {
-	color: midnightblue;
-	border-bottom: 2px solid blue;
-}
-a {color: darkred;
 
+a {
+	color: #ff9800;
 }
+
 .row1 {
 	background: red;
 	margin-left: 20px;
 	margin-right: 20px;
 }
+
 .row2 {
 	background: orange;
 	margin-left: 30px;
 	margin-right: 30px;
 }
+
 .row3 {
 	background: yellow;
 	margin-left: 40px;
 	margin-right: 40px;
 }
+
 .row4 {
 	background: lightblue;
 	margin-left: 40px;
 	margin-right: 40px;
 }
+
 .row5 {
 	background: blue;
 	margin-left: 30px;
 	margin-right: 30px;
 }
+
 .row6 {
 	background: purple;
 	margin-left: 20px;
 	margin-right: 20px;
 }
-.container {
-	display: flex;
-}
+
 .lastname {
 	border-bottom: 2px solid yellow;
 }
+
 .additionalinfo {
 	margin: 10px;
 	color: white;
 	text-align: center;
 }
+
 .additionalinfoname {
 	margin-bottom: 10px;
 }
+
 ul {
 	text-align: initial;
 }
+
 .avacontainer {
 	text-align: center;
 	margin: 20px;
 }
+
 .ability {
 	border-radius: 15px;
+	color: black;
+}
+
+.right {
+	width: 100%;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.info {
+	color: midnightblue;
+	border-bottom: 2px solid blue;
 }
